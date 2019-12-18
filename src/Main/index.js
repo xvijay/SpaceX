@@ -8,6 +8,7 @@ import Mission from "../Mission";
 import { Loader } from "../Extra/Spinner";
 import LaunchpadPage from "../Launchpad";
 import PayloadClass from "../Payload";
+import Currency from "../Currency";
 
 class Space extends React.Component {
   constructor(props) {
@@ -40,6 +41,10 @@ class Space extends React.Component {
   render() {
     return (
       <Switch>
+        <Route
+          path="/currency"
+          render={props => <Currency {...props}></Currency>}
+        ></Route>
         {this.state.missionData ? (
           <Route
             path="/mission"

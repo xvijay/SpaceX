@@ -22,6 +22,7 @@ export default function App() {
           <Nav className="mr-auto">
             <Nav.Link href="#/mission">Mission</Nav.Link>
             <Nav.Link href="#/launchpad">Launch Pad</Nav.Link>
+            <Nav.Link href="#/currency">Currency Converter</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

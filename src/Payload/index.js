@@ -1,6 +1,6 @@
 import React from "react";
 import axios from "axios";
-import { Container, Row, Col, ListGroup } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import CardComponent from "../Card";
 
