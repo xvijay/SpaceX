@@ -69,3 +69,42 @@ code {
   font-size: 0.9rem;
   padding: 0.3rem 0.25rem !important;
 }
+
+.centerDivJumbo {
+  background-color: transparent !important;
+  color: white;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 30%;
+  z-index: 1000;
+  text-align: center;
+}
+table {
+  font-size: 0.9rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+td:first-child {
+  font-weight: 600;
+}
+.card .card-small-title {
+  font-weight: bold;
+  position: relative;
+}
+
+.card .card-small-title:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  /* border: 1.5px solid greenyellow; */
+  width: 20px;
+}
